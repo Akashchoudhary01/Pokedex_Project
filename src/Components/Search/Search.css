@@ -1,0 +1,21 @@
+.search-Wrapper{
+
+    margin: 0 auto;
+   
+   
+}
+#pokemon-name-search{
+    width: 500px;
+    /* height: 40px; */
+    padding: 1.1rem;
+    border: 1px solid black;
+}
+
+#pokemon-name-search:hover {
+    transform: scale(1.01);
+    box-shadow: 12px 16px 18px rgba(2, 2, 4, 1.15);
+  }
+  
+/* #pokemon-name-search:active {
+    transform: scale(0.95);
+  } */
