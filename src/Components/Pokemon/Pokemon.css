@@ -1,0 +1,27 @@
+.Pokemon{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+.PokemonImage{
+    height: 150px;
+    margin-top: 1rem;
+    max-height: 80%;
+}
+.PokemonName{
+   font-size: larger;
+   letter-spacing: .2rem;
+    display: flex;
+}
+.Pokemon:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+/* .Pokemon:active{
+    transform: scale(0.95);
+} */

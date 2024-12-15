@@ -5,3 +5,29 @@
     flex-direction: column;
 
 }
+.Pokemon-Wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Controls{
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.Controls button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+}
+.Controls button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    
+}
+.Controls button:active{
+    transform: scale(0.95);
+}
