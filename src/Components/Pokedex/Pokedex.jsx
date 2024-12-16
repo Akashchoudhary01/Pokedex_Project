@@ -6,7 +6,7 @@ import './Pokedex.css'
 function Pokedex(){
 return(
     <div className="Pokedex-Wrapper">
-        <h1 id="pokedex-header">Pokedex</h1>
+     
  
     <Search/>
     <PokemonList/>

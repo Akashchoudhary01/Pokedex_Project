@@ -1,11 +1,15 @@
+import {Link} from 'react-router-dom';
 import './Pokemon.css'
-function Pokemon({name , image}){
+function Pokemon({name , image , id}){
     return(
         <div className='Pokemon'>
-            <div className='PokemonName'>{name}</div>
+
+        <Link to={`/pokemon/${id}`}>
+          <div className='PokemonName'>{name}</div>
             <div>
                 <img className='PokemonImage' src={image}/>
             </div>
+        </Link>
         </div>
     )
 

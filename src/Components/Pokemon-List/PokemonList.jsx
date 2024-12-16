@@ -18,7 +18,7 @@ function PokemonList(){
         const response =  await axios.get(PokedexUrl); //this downlode the list of 20 pokemons
         const pokemonResults = response.data.results; //We got the array of pokemon from result
         console.log(response.data);
-        setNextUrl(response.data.next);
+        setNextUrl(response.data.next);~
        setPrevUrl(response.data.previous);
 
 
@@ -63,6 +63,7 @@ function PokemonList(){
                  name={p.name}
                  image={p.image}
                  key={p.id}
+                 id = {p.id}
                  />)  
                 }
                 </div>   

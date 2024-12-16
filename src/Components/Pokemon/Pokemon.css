@@ -16,7 +16,9 @@
 .PokemonName{
    font-size: larger;
    letter-spacing: .2rem;
-    display: flex;
+   display: flex;
+   justify-content: center;
+
 }
 .Pokemon:hover{
     transform: scale(1.05);
