@@ -31,7 +31,7 @@ function PokemonDetails() {
             <div>Weight: {pokemon.weight}</div>
 
             </div>
-            <div className="pokemonTypes">Types : { pokemon.types && pokemon.types.map((t)=><div key={t}>{t}</div>
+            <div className="pokemonTypes">{ pokemon.types && pokemon.types.map((t)=><div key={t}>{t}</div>
                 )}
             </div>
         </div>
